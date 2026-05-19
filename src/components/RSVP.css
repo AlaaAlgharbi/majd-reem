@@ -19,6 +19,8 @@
   width: 50%;
   height: auto;
   margin: 0 auto;
+  display: block;
+  padding-bottom: 1rem;
 }
 
 html[dir="rtl"] .rsvp h2 {
