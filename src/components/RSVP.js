@@ -30,7 +30,7 @@ const RSVP = () => {
             rel="noopener noreferrer"
             class="btn btn-dark btn-sm px-1 py-1 "
           >
-            Watch live
+            {t("rsvp.live")}
           </a>
         </div>
       </div>
