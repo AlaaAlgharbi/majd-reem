@@ -5,7 +5,7 @@
 .rsvp {
   /* padding: 0rem 4rem; */
   text-align: center;
-  margin: 0rem 0rem ;
+  margin: 0rem 0rem;
 }
 
 .rsvp h2 {
@@ -15,13 +15,16 @@
   color: #b9975b;
   padding: 0 1rem;
 }
+.rsvp-image {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
 
 html[dir="rtl"] .rsvp h2 {
   font-family: "Amiri", serif !important;
   line-height: 4rem;
 }
-
-
 
 @media (max-width: 768px) {
   .rsvp {
@@ -32,11 +35,16 @@ html[dir="rtl"] .rsvp h2 {
     font-size: 3rem;
   }
 
+  .rsvp-image {
+    width: 70%;
+  }
 }
 
 @media (max-width: 480px) {
   .rsvp h2 {
     font-size: 2.5rem;
   }
+  .rsvp-image {
+    width: 80%;
+  }
 }
-
