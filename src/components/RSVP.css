@@ -3,8 +3,9 @@
 }
 
 .rsvp {
-  padding: 1rem 4rem;
+  /* padding: 0rem 4rem; */
   text-align: center;
+  margin: 0rem 0rem ;
 }
 
 .rsvp h2 {
@@ -13,11 +14,12 @@
   margin-bottom: 2rem;
   letter-spacing: 4px;
   color: #b9975b;
-  padding: 0 3rem;
+  padding: 0 1rem;
 }
 
 html[dir="rtl"] .rsvp h2 {
   font-family: "Amiri", serif !important;
+  line-height: 4rem;
 }
 
 
