@@ -1,0 +1,37 @@
+{
+  "header": {
+    "title": "Wedding RSVP"
+  },
+  "hero": {
+    "name1": "Majd",
+    "name2": "Reem"
+  },
+  "weddingDetails": {
+    "subtitle": "THE DETAILS",
+    "title": "Wedding Information",
+    "churchCeremony": "Church Ceremony",
+    "churchName": "ST.GEORGE- AL MISHTAYA",
+    "churchTime": "6:00 PM",
+    "venue": "Venue",
+    "venueName": "AL NASSRA HOTEL",
+    "venueTime": "9:00 PM",
+    "viewOnMap": "View on Map"
+  },
+  "saveTheDate": {
+    "saveTheDate": "Save the Date",
+    "date": "June 24, 2026",
+    "days": "days",
+    "hours": "hours",
+    "minutes": "minutes",
+    "seconds": "seconds",
+    "quote": "“Two souls, one heart.”",
+    "signature": "Majd & Reem · June 24, 2026"
+  },
+  "rsvp": {
+    "rsvp": "Your presence will truly make this day memorable for our family . We look forward to seeing you there."
+  },
+  "footer": {
+    "quote": "“Two souls, one heart.”",
+    "signature": "Majd & Reem · JUNE 24, 2026"
+  }
+}

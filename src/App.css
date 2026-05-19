@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html[dir="rtl"] {
+  font-family: 'Amiri', serif !important;
+}
+
+.App {
+  text-align: center;
+}
