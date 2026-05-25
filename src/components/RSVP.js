@@ -28,7 +28,7 @@ const RSVP = () => {
             href="https://www.facebook.com/share/g/1EASfKbWoh/?mibextid=wwXIfr"
             target="_blank"
             rel="noopener noreferrer"
-            class="btn btn-dark btn-sm px-1 py-1 "
+            className="btn btn-dark btn-sm px-1 py-1 "
           >
             {t("rsvp.live")}
           </a>

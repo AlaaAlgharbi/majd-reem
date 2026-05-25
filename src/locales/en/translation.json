@@ -29,10 +29,13 @@
   },
   "rsvp": {
     "rsvp": "Your presence will truly make this day memorable for our family . We look forward to seeing you there.",
-    "live": "ًWatch Live"
+    "live": "Watch Live"
   },
   "footer": {
     "quote": "“Two souls, one heart.”",
     "signature": "Majd & Reem · JUNE 24, 2026"
+  },
+  "musicPlayer": {
+    "music": "music"
   }
 }

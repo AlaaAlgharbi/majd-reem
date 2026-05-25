@@ -1,10 +1,12 @@
-import React, { useState, useRef } from 'react';
-import './MusicPlayer.css';
+import React, { useState, useRef } from "react";
+import "./MusicPlayer.css";
+import { useTranslation } from "react-i18next";
 
 const MusicPlayer = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef(null);
-  
+  const { t } = useTranslation();
+
   const togglePlay = () => {
     if (isPlaying) {
       audioRef.current.pause();
@@ -14,19 +16,27 @@ const MusicPlayer = () => {
     setIsPlaying(!isPlaying);
   };
   return (
-    <button aria-label="Play music" className="music-player-button" onClick={togglePlay}>
+    <button
+      aria-label="Play music"
+      className="music-player-button"
+      onClick={togglePlay}
+    >
       <audio ref={audioRef} src="/3.mp3" loop />
-      <div className={`cd-icon-container ${isPlaying ? 'playing' : ''}`}>
-        <svg viewBox="0 0 40 40" className="cd-svg" aria-hidden="true">
-            <circle cx="20" cy="20" r="19" fill="#1a1a1a"></circle>
-            <circle cx="20" cy="20" r="16" fill="none" stroke="rgba(255,255,255,0.15)" strokeWidth="1.5"></circle>
-            <circle cx="20" cy="20" r="13" fill="none" stroke="rgba(255,255,255,0.1)" strokeWidth="1"></circle>
-            <circle cx="20" cy="20" r="10" fill="none" stroke="rgba(255,255,255,0.08)" strokeWidth="0.8"></circle>
-            <circle cx="20" cy="20" r="6" fill="#C9A0A0"></circle>
-            <circle cx="20" cy="20" r="1.5" fill="#1a1a1a"></circle>
-            <circle cx="20" cy="5" r="1.5" fill="rgba(255,255,255,0.85)"></circle>
+      <div className={`cd-icon-container ${isPlaying ? "playing" : ""}`}>
+        <svg
+          viewBox="0 0 24 24"
+          className="cd-svg"
+          aria-hidden="true"
+          fill="white"
+        >
+          <path
+            d="M12 3v10.55A4 4 0 1 0 14 17V7h4V3h-6z"
+            stroke="black"
+            strokeWidth="1"
+          ></path>
         </svg>
       </div>
+      <div >{t("musicPlayer.music")}</div>
     </button>
   );
 };
